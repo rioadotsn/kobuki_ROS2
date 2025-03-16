@@ -13,7 +13,6 @@ This repository holds the ROS wrapper of [Kobuki's C++ driver](https://github.co
 * [Turtlebot Reference Platform](http://www.ros.org/wiki/Robots/TurtleBot) - kobuki has been designed to meet the requirements of [ROS REP #119](http://www.ros.org/reps/rep-0119.html) to support turtlebot.
 
 
-======
 
 ### Setup repositories ###
 
