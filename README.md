@@ -23,8 +23,8 @@ ROS dep install
    ```bash
    rosdep install --from-paths src --ignore-src -r -y
    ```
-launch kobuki:
+run kobuki_node:
    ```bash
-   ros2 launch kobuki_node kobuki_node-launch.py port:=/dev/ttyUSB0
+   ros2 run kobuki_node kobuki_ros_node
    ```
 
