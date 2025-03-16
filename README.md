@@ -17,7 +17,7 @@ This repository holds the ROS wrapper of [Kobuki's C++ driver](https://github.co
    ```bash
    sudo apt install liborocos-kdl-dev
    ```
-*git clone src
+* git clone src
 
 ROS dep install
    ```bash
