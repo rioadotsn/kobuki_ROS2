@@ -13,13 +13,17 @@ This repository holds the ROS wrapper of [Kobuki's C++ driver](https://github.co
 * [Turtlebot Reference Platform](http://www.ros.org/wiki/Robots/TurtleBot) - kobuki has been designed to meet the requirements of [ROS REP #119](http://www.ros.org/reps/rep-0119.html) to support turtlebot.
 
 
+======
 
+### Setup repositories ###
+
+* install liborocos-kdl-dev
    ```bash
    sudo apt install liborocos-kdl-dev
    ```
 * git clone src
 
-ROS dep install
+* ROS dep install
    ```bash
    rosdep init
    rosdep update
@@ -27,7 +31,7 @@ ROS dep install
    ```bash
    rosdep install --from-paths src --ignore-src -r -y
    ```
-run kobuki_node:
+* run kobuki_node:
    ```bash
    ros2 run kobuki_node kobuki_ros_node
    ```
