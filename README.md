@@ -21,7 +21,7 @@ This repository holds the ROS wrapper of [Kobuki's C++ driver](https://github.co
 
 2. Clone the source repository in src:
    ```bash
-   git clone 
+   git clone https://github.com/rioadotsn/kobuki_ROS2.git
    ```
 
 3. Initialize and update rosdep:
